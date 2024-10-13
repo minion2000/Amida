@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>あみだくじ</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <h1>あみだくじ</h1>
-    <div class="amida">
-        <canvas id="amidaCanvas" width="400" height="400"></canvas>
+
+    <!-- スタートと結果の入力フォーム -->
+    <div class="inputs">
+      <div>
+        <label for="start">スタートの項目:</label>
+        <input type="text" id="start" placeholder="例: A,B,C,D,E" />
+      </div>
+      <div>
+        <label for="result">結果の項目:</label>
+        <input type="text" id="result" placeholder="例: 1,2,3,4,5" />
+      </div>
     </div>
-    <button id="startButton">スタート</button>
+
+    <!-- あみだくじを描画するキャンバス -->
+    <div class="amida">
+      <canvas id="amidaCanvas" width="400" height="400"></canvas>
+    </div>
+
+    <!-- 実行ボタン -->
+    <button id="runButton">実行</button>
+
+    <!-- 結果表示エリア -->
+    <div id="resultArea"></div>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

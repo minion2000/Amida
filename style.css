@@ -1,34 +1,48 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
 }
 
 h1 {
-    margin-top: 20px;
-    color: #333;
+  margin-top: 20px;
+  color: #333;
+}
+
+.inputs {
+  margin-bottom: 20px;
+}
+
+.inputs div {
+  margin: 10px 0;
 }
 
 .amida {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px auto;
-    background-color: white;
-    border: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  background-color: white;
+  border: 1px solid #ddd;
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: #45a049;
+  background-color: #45a049;
+}
+
+#resultArea {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
 }
